@@ -3,3 +3,31 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+nav a {
+  align-items: center;
+  padding: 0 10px 0 10px;
+  background: gray;
+}
+
+
+#featured-property {
+  text-align: center;
+}
+
+#featured-property p {
+  width: 50%;
+  margin: auto;
+  margin-bottom: revert;
+}
+
+#details {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
